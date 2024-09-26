@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    text-align: right;
+    margin: 0 20px 0 60px;
+}
+
+.container .heading {
+    text-align: right;
+    /*padding-right: 80px;*/
+}
+
+.container .heading h3{
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(242, 245, 245);
+    text-align: right;
+    margin-right: 0;
+    padding: 8px 180px;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 1000px 10px 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container .box .dream1{
+    display: flex;
+    flex-direction: row;
+}
+
+.container .box .dream2{
+    display: flex;
+    flex-direction: row;
+}
+
+.container .box .dream3{
+    display: flex;
+    flex-direction: row;
+}
+
+.container .box .dream1 img{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.container .box .dream2 img{
+    padding-right: 10px;
+    padding-bottom: 10px
+}
+
+.container .box .dream3 img{
+    padding-right: 10px;
+    padding-bottom: 10px
+}
+
+.body {
+    background-color: black;
+    align-items: left;
+    height: 100vh;
+    width: 100%;
+}
+
+.left{
+    align-items: left;
+}
+
+.btn {
+    float: right;
+    padding: 10px 100px 10px 0;
+}
+
+.btn a {
+    float: top;
+    float: right;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #7d2ae8;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: #fff;
+}
+
+.navigation b {
+    color: #fff;
+}
